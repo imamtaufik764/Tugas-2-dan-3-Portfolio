@@ -1,0 +1,44 @@
+*,html{
+    margin: 0;
+    padding: 0;
+}
+    
+table,
+th,
+td {
+    border: 1px solid rgb(197, 24, 24);
+}
+  
+.h1-judul{
+    color: rgb(71, 255, 209);
+}
+
+.navbar{
+     background-color: rgb(177, 226, 43);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;  
+}
+
+li{
+    list-style-type: none;   
+    padding: 50px;
+}  
+
+li.hiver{
+
+}
+
+a{
+    text-decoration: none;
+    color:chocolate;
+    font-size:20px;
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 50px;
+}
